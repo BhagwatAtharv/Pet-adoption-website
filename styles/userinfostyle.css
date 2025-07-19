@@ -1,0 +1,140 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #f3abe6;
+}
+
+#profileDetails {
+    padding: 20px;
+    background-color: #ffffff;
+    margin: 20px auto;
+    width: 800px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.indexbar{
+    width:100%;
+    height:100px ;
+    background-color: rgb(254, 254, 254);
+    display: flex;
+   
+}
+.name1{
+    width:400px;
+    margin-top: 8px ;
+    padding-left:30px;
+    font-family: Roboto Slab;
+font-size: 30px;
+font-weight: 700;
+line-height: var(--DisplayLargeLineHeight);
+
+}
+.name2{
+width: 600px;
+text-align: center;
+padding-top: 20px;
+font-size: 40px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+color: hsl(0, 0%, 0%,70%);
+}
+h3{
+    padding: 0;
+    margin: 0;
+}
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+/* Card styles */
+.card {
+    background-color: #f2dbf5;
+    width: 40%;
+    display: flex;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.card img {
+    width: 50%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.card-info {
+    padding: 10px;
+    width: 50%;
+}
+
+.card-info h3 {
+    margin: 25px 0;
+    font-size: 25px;
+}
+
+.card-info p {
+    margin: 5px 0;
+    font-size: 20px;
+}
+.addp{
+    position: relative;
+    margin-left: 50%;
+}
+.add{
+    align-items: center;
+    width: 400px;
+    margin: 40px auto;
+    padding: 20px;
+    border-radius: 10px;
+    overflow: hidden;
+    
+}
+Form{
+ width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  background-color: #00000015;
+  color: white;
+}
+
+form > label{
+    font-size: 17px;
+    width: 102px;
+    display: inline-block;
+}
+#ab2{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+input{
+    width: 71%;
+    height: 37px;
+    margin: 1px;
+    border-radius: 8px;
+    border: white;
+}
+button{
+    width: 100px;
+    height:50px;
+}
+option{
+color: white;
+  }

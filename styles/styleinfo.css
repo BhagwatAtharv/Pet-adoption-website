@@ -1,0 +1,117 @@
+
+body {
+    background-color: #D4A5DC;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: white;
+    padding: 20px;
+    text-align:left;
+    font-size: 55px;
+    font-family: Roboto Slab;
+    font-weight: bold;
+}
+
+.search-bar {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.search-bar input[type="text"] {
+    width: 50%;
+    padding: 10px;
+    font-size: 1rem;
+}
+
+.search-bar input[type="submit"] {
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+/* Card styles */
+.card {
+    background-color: #f2dbf5;
+    width: 45%;
+    display: flex;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.card img {
+    width: 50%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.card-info {
+    padding: 10px;
+    width: 50%;
+}
+
+.card-info h3 {
+    margin: 25px 0;
+    font-size: 25px;
+}
+
+.card-info p {
+    margin: 5px 0;
+    font-size: 20px;
+}
+
+footer {
+    display: flex;
+    background-color: white;
+    padding: 20px;
+    margin-top: 30px;
+    box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 70%;
+    margin-left: 40px;
+}
+
+.footer-section {
+    width: 18%;
+}
+.playstore{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content:right;
+}
+.play{
+    height:55px;
+    width: 220px;
+    border:2px solid black;
+    border-radius: 10px;
+    display: flex;
+    margin-right: 30px;
+}
+.play i{
+    font-size: 50px;
+}
+.a2{
+    font-size: 30px;
+} 
+.a2 p , .a1 p{
+    margin: 0px;
+}

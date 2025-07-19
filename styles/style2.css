@@ -1,0 +1,183 @@
+/* Global Styles */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  h1{
+    font-family: Fraunces;
+font-size: 80px;
+font-weight: 600;
+text-align: center;
+color: white;
+
+  }
+  body {
+    font-family: Arial, sans-serif;
+    background-image: url('../app/v1_101.png'); 
+    background-size: cover;
+    height: 100vh;
+    margin: 0;
+    font-size: 16px;
+    line-height: 1.5;
+    background-color: #D4A5DC;
+  }
+  
+  /* Container Styles */
+  
+  .container {
+    height: 650px;
+    width: 400px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: hsl(0, 0%, 0%,10%);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+  }
+ 
+  .a2{
+    margin-left: 100px;
+    background-color: rgba(0, 0, 0, 0.233);
+  }
+  /* Logo Styles */
+  
+  .logo {
+    width: 50px;
+    height: 50px;
+    margin: 20px auto;
+    border-radius: 50%;
+    background-color: hsla(0, 0%, 100%, 0.089);
+    padding: 10px;
+    background-image: url("../app/Screenshot\ 2024-09-26\ 234537.png"); /* replace with your logo image */
+    background-size: cover;
+    background-position: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Login Form Styles */
+  ::placeholder{
+    color: white;
+  }
+  .login-form {
+    display: block;
+    padding: 20px;
+    background-color: hsla(0, 0%, 98%, 0);
+  color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .login-form input[type="text"], .login-form input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: #00000015;
+    color: white;
+  }
+  
+  .login-form input[type="text"]:focus, .login-form input[type="password"]:focus {
+    border-color: #aaa;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .login-form button[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .login-form button[type="submit"]:hover {
+    background-color: #3e8e41;
+  }
+  
+  /* Sign Up Form Styles */
+  
+  .signup-form {
+    display: none;
+    padding: 20px;
+    background-color: #f9f9f900;
+  
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .signup-form input[type="text"], .signup-form input[type="email"], .signup-form input[type="password"], .signup-form input[type="tel"]{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: #00000015;
+    color: white;
+  }
+  
+  .signup-form input[type="text"]:focus, .signup-form input[type="email"]:focus, .signup-form input[type="password"]:focus, .signup-form input[type="tel"]:focus {
+    border-color: #aaa;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+
+  #ab{
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  background-color: #00000015;
+  color: white;
+}
+  
+  .signup-form button[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .signup-form button[type="submit"]:hover {
+    background-color: #3e8e41;
+  }
+  
+  /* Toggle Button Styles */
+  
+  .toggle-button {
+    padding: 10px 20px;
+    background-color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .toggle-button.active {
+    background-color: #4CAF50;
+    color: #fff;
+  }
+  
+  .toggle-button:hover {
+    background-color: #3e8e41;
+  }
+  
+  /* Social Login Styles */
+  
+  .social-login {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #f9f9f900;
+  
+    justify-content: center;}
