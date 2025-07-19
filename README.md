@@ -1,1 +1,2 @@
 # Pet-adoption-website
+This repository hosts the complete codebase for a Pet Adoption Website, a platform designed to connect loving animals with their forever homes. The website provides a user-friendly interface for prospective adopters to browse available pets, filter by various criteria, and submit adoption applications. For animal shelters and rescue organizations, it offers tools to manage their pet listings, review applications, and streamline the adoption process.
